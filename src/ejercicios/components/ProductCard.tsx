@@ -28,7 +28,7 @@ export const ProductCard = ({
 
     return (
         <>
-            <div className="max-w-xs bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 mt-4">
+            <div className=" animate__animated animate__fadeIn  animate__faster max-w-xs bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 mt-4">
                 <img
                     src={imageUrl}
                     alt={title}

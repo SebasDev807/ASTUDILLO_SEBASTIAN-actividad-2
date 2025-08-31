@@ -8,7 +8,7 @@ export const Ejercicio3 = () => {
     return (
 
 
-        <div className="min-h-screen p-3 flex justify-center flex-col items-cente space-y-4">
+        <div className=" animate__animated animate__fadeIn  animate__faster min-h-screen p-3 flex justify-center flex-col items-cente space-y-4">
             <SearchBox query={query} setQuery={setQuery} />
             <div className="flex flex-col items-center space-y-2">
                 <h2 className="text-xl font-medium text-center">Resultados de búsqueda</h2>

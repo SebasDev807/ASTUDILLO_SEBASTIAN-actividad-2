@@ -12,7 +12,7 @@ export const Ejercicio1 = () => {
   }, [count]);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r  p-4">
+    <div className="animate__animated animate__fadeIn  animate__faster min-h-screen flex flex-col items-center justify-center bg-gradient-to-r  p-4">
       <h1 className="text-4xl font-bold text-gray-800 mb-6">Ejercicio 1</h1>
 
       <div className="mb-6">

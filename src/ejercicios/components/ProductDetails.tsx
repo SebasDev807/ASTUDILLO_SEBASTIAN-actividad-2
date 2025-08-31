@@ -28,7 +28,8 @@ export const ProductDetails = ({
 
   return (
     <div
-      className={`fixed inset-0 flex items-center justify-center z-50 bg-white/30 backdrop-blur-sm transition-opacity ${isModalOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+      className={`
+        animate__animated animate__fadeIn  animate__faster fixed inset-0 flex items-center justify-center z-50 bg-white/30 backdrop-blur-sm transition-opacity ${isModalOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
     >
       <div

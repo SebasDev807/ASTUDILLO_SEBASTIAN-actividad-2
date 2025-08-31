@@ -11,8 +11,7 @@ Este proyecto corresponde al **Ejercicio 2**, enfocado en el **manejo de estados
 
 1. **Contador**: Un contador interactivo con botones para incrementar, decrementar y reiniciar.
 2. **E-commerce básico**: Catálogo de productos (ropa, mini cascos, accesorios) con modal de detalles, manejo de stock y tallas.
-3. **Buscador**: Campo de búsqueda que filtra los productos del catálogo dinámicamente.
-
+3. **Buscador**: Campo de búsqueda que muestra la consulta en tiempo real
 Se utilizan hooks de React como `useState` y `useEffect` para controlar el estado y la interactividad. El estilo se realiza con **Tailwind CSS**.
 
 ---

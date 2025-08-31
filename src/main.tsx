@@ -1,14 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css';
-// import { Ejercicio3 } from './ejercicios/Ejercicio3';
-// import { Ejercicio1 } from './ejercicios/Ejercicio1';
-import { Ejercicio2 } from './ejercicios/Ejercicio2';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRouter } from './AppRouter';
+import { NavBar } from './components/NavBar';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/* <Ejercicio1 /> */}
-    <Ejercicio2 />
-    {/* <Ejercicio3/> */}
+    <BrowserRouter>
+      <NavBar />
+      <AppRouter />
+    </BrowserRouter>
   </StrictMode>,
 )

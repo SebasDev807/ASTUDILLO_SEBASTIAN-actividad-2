@@ -5,18 +5,12 @@ import { ProductCard } from "./ProductCard"
 
 export const ProductGrid = () => {
   return (
-    <div className="grid grid-cols-2 gap-5">
+    <div className="grid grid-cols-3 gap-5 mt-10">
 
       {products.map(product => (
         <ProductCard
-          features={product.features || []}
-          description={product.description || ""}
+          {...product}
           key={product.title}
-          imageUrl={product.imageUrl}
-          title={product.title}
-          price={product.price}
-
-
         />
       ))}
     </div>

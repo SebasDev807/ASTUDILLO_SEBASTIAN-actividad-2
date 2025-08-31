@@ -4,35 +4,70 @@ interface Product {
     price: number;
     description?: string;
     features?: string[];
+    sizes?: string[];   // Tallas disponibles
+    stock?: number;     // Cantidad disponible
 }
 
 export const products: Product[] = [
     {
-        title: 'Bareta',
-        imageUrl: '/products/cannabis.jpg',
-        price: 2000,
-        description: 'Peguese los plones y disfrute de su aroma, escuche colores y vea sonidos',
-        features: ['100% natural', 'Cultivo indoor', 'Aroma intenso']
+        title: 'Camiseta Red Bull Racing',
+        imageUrl: '/products/redbull_shirt.webp',
+        price: 50,
+        description: 'Camiseta oficial Red Bull Racing, diseño clásico.',
+        features: ['Logo bordado', 'Transpirable', 'Ajuste cómodo'],
+        sizes: ['S', 'M', 'L', 'XL'],
+        stock: 30
     },
     {
-        title: 'Chamber',
-        imageUrl: '/products/chamber.jpeg',
-        price: 1500,
-        description: 'Alcohol jgb con frutiño, una chimba',
-        features: ["Rico", "Rico", "Rico"]
+        title: 'Sudadera Mercedes AMG',
+        imageUrl: '/products/sudadera_mercedes.webp',
+        price: 80,
+        description: 'Sudadera oficial Mercedes AMG con capucha ajustable.',
+        features: ['Suave al tacto', 'Bolsillos frontales', 'Resistente al frío'],
+        sizes: ['M', 'L', 'XL', 'XXL'],
+        stock: 20
     },
     {
-        title: 'Crack',
-        imageUrl: '/products/crack.jpg',
-        description: 'Pega fuerte, no es para todos los públicos',
-        price: 1600,
-        features:["100% adictivo", "No apto para cardíacos", "Te hace feliz"]
+        title: 'Gorra Ferrari',
+        imageUrl: '/products/gorra_ferrari.jpeg',
+        price: 35,
+        description: 'Gorra oficial Ferrari con logo bordado.',
+        features: ['Ligera', 'Ajustable', 'Resistente al sol'],
+        sizes: ['Única'],
+        stock: 50
     },
     {
-        title: 'Clonazepam',
-        description: 'Relajante muscular, ansiolítico, anticonvulsivo y sedante',
-        price: 6000,
-        imageUrl: '/products/coquan.jpeg',
-        features: ["Efecto prolongado", "Uso recreativo", "Alivio del estrés"]
+        title: 'Mini Casco Lewis Hamilton',
+        imageUrl: '/products/casco_hamilton.jpg',
+        price: 120,
+        description: 'Mini casco de colección a escala 1:5 de Lewis Hamilton.',
+        features: ['Pintura detallada', 'Soporte incluido', 'Coleccionable'],
+        stock: 15
+    },
+    {
+        title: 'Mini Casco Max Verstappen',
+        imageUrl: '/products/casco_max.webp',
+        price: 120,
+        description: 'Mini casco de colección a escala 1:5 de Max Verstappen.',
+        features: ['Acabado realista', 'Base para exposición', 'Coleccionable'],
+        stock: 10
+    },
+    {
+        title: 'Chaqueta Alpine F1',
+        imageUrl: '/products/alpine_shirt.avif',
+        price: 150,
+        description: 'Chaqueta oficial Alpine, resistente al viento.',
+        features: ['Capucha desmontable', 'Bolsillos interiores', 'Cómoda y ligera'],
+        sizes: ['M', 'L', 'XL', 'XXL'],
+        stock: 12
+    },
+    {
+        title: 'Camiseta McLaren',
+        imageUrl: '/products/mcLaren_shirt.avif',
+        price: 55,
+        description: 'Camiseta oficial McLaren con diseño moderno.',
+        features: ['Logo estampado', 'Transpirable', 'Ajuste clásico'],
+        sizes: ['S', 'M', 'L', 'XL'],
+        stock: 25
     }
-]
+];

@@ -61,7 +61,7 @@ pnpm dev
 * `src/components/ProductCard.tsx` → Componente que muestra la tarjeta de cada producto y abre el modal.
 * `src/components/ProductDetails.tsx` → Componente que muestra los detalles del producto en un modal con tallas y stock.
 * `src/ejercicio/Ejercicio1.tsx` → Contador interactivo con incremento, decremento y reinicio.
-* `src/components/Searchbox.tsx` → Componente para buscar y filtrar productos.
+* `src/components/Searchbox.tsx` → Componente para buscar y mostrar mensajes en tiempo real
 * `src/data/products.ts` → Lista de productos con tallas, stock, descripción y características.
 * `src/pages/Ejercicio2.tsx` → Página principal del ejercicio donde se renderizan todas las secciones.
 
